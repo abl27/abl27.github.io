@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Pastelería y Repostería Candies</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> </head>
+
+<body>
+    <header>
+        <div class="logo">Logo Candies</div>
+        <div class="redes"> <a href="http://www.facebook.com"><i class="fa fa-facebook fa-3x" aria-hidden="true"></i></a>
+            <a href="http://www.instagram.com"> <i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="Home.html">Inicio</a></li>
+                <li><a href="pasteleria.html">Pastelería</a></li>
+                <li><a href="reposteria.html">Repostería</a></li>
+                <li><a href="acerca.html">Acerca de Nosotros</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+        <nav class="hamburguesa"> <i class="fa fa-bars fa-3x" aria-hidden="true"></i>
+            <div class="menumov">
+                <ul>
+                    <li><a href="Home.html">Inicio</a></li>
+                    <li><a href="pasteleria.html">Pastelería</a></li>
+                    <li><a href="reposteria.html">Repostería</a></li>
+                    <li><a href="acerca.html">Acerca de Nosotros</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="formularios">
+            <form action="mailto:abl080895@hotmail.com" method="post">
+                <h1>Pedido de Pasteles</h1>
+                <div>
+                    <label for="Nombre">Nombre:</label>
+                    <input type="text" id="Nombre" placeholder="Abraham" required autofocus> </div>
+                <div>
+                    <label for="Apellido">Apellido:</label>
+                    <input type="text" id="Apellido" placeholder="Basurto"> </div>
+                <div>
+                    <label for="Calle">Calle:</label>
+                    <input type="text" id="Calle" required autofocus> </div>
+                <div>
+                    <label for="Numero">Numero:</label>
+                    <input type="text" id="Numero" required autofocus> </div>
+                <div>
+                    <label for="Colonia">Colonia:</label>
+                    <input type="text" id="Nombre" required autofocus> </div>
+                <div>
+                    <label for="Codigo Postal">Codigo Postal:</label>
+                    <input type="text" id="Codigo Postal" required autofocus> </div>
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" placeholder="email@email.com" required autofocus> </div>
+                <div>
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" id="telefono"> </div>
+                <div>
+                    <label for="Pastel">Pastel</label>
+                    <select name="Pastel">
+                        <option value="Pastel selva" selected>Pastel Selva Negra</option>
+                        <option value="Pastel tres">Pastel de Tres Leches</option>
+                        <option value="Pastel Zana">Pastel de Zanahoria</option>
+                        <option value="Pastel Moka">Pastel de Moka</option>
+                        <option value="Pastel Almendra">Pastel de Almendra</option>
+                        <option value="Pastel ChocoBlan">Pastel de Chocolate Blanco</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="cantidad">Cantidad:</label>
+                    <input type="number"> </div>
+                <div>
+                    <div>
+                        <label for="fecha">Fecha para entregar:</label>
+                        <input type="date" id="fecha"> </div>
+                    <div>
+                        <label for="Pedir"></label>
+                        <input class="submit" type="submit" value="Pedir Ahora" required autofocus> </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <p class="bold">Horarios</p>
+            <p>Lu-Vi: 10hrs - 20hrs</p>
+            <p>Sa_Do: 10hrs - 17hrs</p>
+        </div>
+        <div>
+            <p class="bold">Contacto</p>
+            <p>Cel: 55-27-55-62-98</p>
+            <p>96-88-55-48</p>
+        </div>
+        <div class="siguenos">
+            <div>
+                <p class="bold">Siguenos en:</p><a href="http://www.facebook.com"><i class="fa fa-facebook fa-3x" aria-hidden="true"></i></a>
+                <a href="http://www.instagram.com"> <i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="js/carussel.js"></script>
+</body>
+
+</html>

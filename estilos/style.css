@@ -1,0 +1,828 @@
+body {
+    max-width: 1800px;
+    width: 100%;
+    font-size: 14px;
+    background-color: white;
+    opacity: 0.5 margin: 0;
+    font-family: handlee, "Tempus sans", sans-serif;
+    margin: 0;
+}
+
+main {
+    margin: 1% 0;
+}
+
+
+/*header*/
+
+header {
+    background-color: #E26EA8;
+    width: 100%;
+    height 100px;
+}
+
+.logo {
+    width: 50%;
+    background-image: url(images/logo.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    text-indent: -150%;
+    height: 150px;
+    margin: 0 25%;
+}
+
+.menu {
+    font-family: handlee;
+    text-align: center;
+    font-size: 1.5em;
+    width: 100%;
+    padding-bottom: 0.15%;
+    font-weight: 500;
+}
+
+.menu ul li {
+    list-style: none;
+    display: inline;
+    margin-right: 3.5%;
+}
+
+.redes {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 140px;
+    margin-right: 2%;
+}
+
+.redes a {
+    margin-left: 0.5%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu a:hover {
+    color: black;
+    transition-duration: 0.5s;
+}
+
+.fa:hover {
+    color: black;
+    transition-duration: 0.5s;
+}
+
+.hamburguesa {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    color: white;
+    margin-left: 2%;
+}
+
+.menumov {
+    background-color: #953A68;
+    opacity: 0.8;
+    padding: 10px 10px 10px 0;
+}
+
+.menumov ul li {
+    list-style: none;
+    margin-left: -40px;
+    font-size: 1.6em;
+    line-height: 1.9;
+}
+
+
+/*carrusel*/
+
+.carrusel {
+    margin: 3% 15% 5% 15%;
+    display: inline-flex;
+    width: 70%;
+    background-color: white;
+    border: 2px solid #E26EA8;
+    padding: 0;
+    height: 400px;
+}
+
+.carrusel p {
+    font-size: 1.7em;
+    text-align: left;
+    font-family: Sitka;
+}
+
+.carrusel h1 {
+    font-size: 1.9em;
+}
+
+#cake-1,
+#cake-2,
+#cake-3 {
+    display: inline-flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.img img {
+    max-width: 80%;
+}
+
+.desc a {
+    background-color: #E26EA8;
+    padding: 10px 20px;
+    box-shadow: 4px 4px gray;
+    font-size: 1.4em;
+}
+
+.desc a:hover {
+    box-shadow: 4px 4px gray;
+    transform: scale(1.1, 1.1);
+    background-color: #953A68;
+    transition-duration: 0.4s;
+}
+
+
+/*recomendaciones*/
+
+.recomendaciones {
+    border: 3px dashed #E26EA8;
+    background: white;
+    font-family: handlee;
+    font-size: 1.2em;
+    font-weight: bold;
+    width: 80%;
+    margin: 0 10%;
+    margin-bottom: 5%;
+}
+
+.rec {
+    padding-left: 10px;
+    font-size: 1.3em;
+    margin: 0;
+}
+
+.pasteles {
+    display: inline-flex;
+    justify-content: space-around;
+    margin-bottom: 3%;
+}
+
+.pastel a {
+    background-color: #E26EA8;
+    padding: 10px 30px;
+    box-shadow: 4px 4px gray;
+}
+
+.pastel a:hover {
+    background-color: #953A68;
+    box-shadow: 4px 4px gray;
+    transition-duration: 0.4s;
+}
+
+.pastel {
+    width: 30%;
+    height: auto;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.pastel img {
+    width: 60%;
+    display: flex;
+    flex-shrink: 0;
+}
+
+
+/*Footer*/
+
+footer {
+    background-color: #E26EA8;
+    width: 100%;
+    font-family: handlee;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+
+}
+.bold {
+    font-weight: bolder;
+}
+.siguenos div a {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+/*Pag pasteleria reposteria bocadillos*/
+.pasteleria {
+    width: 100%;
+    display: inline-flex;
+}
+.menu2 {
+    margin: 0;
+    width: 30%;
+    height: auto;
+}
+.menu2 ul li {
+    list-style: none;
+    margin-bottom: 20%;
+    text-align: center;
+    margin-top: 20%;
+    font-size: 1.3em;
+    background-color: #E26EA8;
+    padding: 3%;
+    box-shadow: 4px 4px 2px gray;
+    width: 100%;
+    color: white;
+}
+.menu2 ul {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 15%;
+}
+.menu2 ul li:hover {
+    background-color: #953A68;
+    color: white;
+    padding: 5%;
+    transition-duration: 0.4s;
+    box-shadow: 4px 4px 2px gray;
+}
+.pas {
+    width: 70%;
+    margin-top: 2%;
+}
+.pas h1 {
+    text-align: center;
+}
+.hilera1 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.pastel2 {
+    flex-basis: calc(100% / 4);
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #953A68;
+    margin-bottom: 20px;
+}
+.pastel2 p {
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+.pastel2 img {
+    width: 100%;
+    display: flex;
+    flex-shrink: 0;
+}
+.pastel2 a {
+    background-color: #E26EA8;
+    padding: 10px 20px;
+    box-shadow: 4px 4px 2px gray;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+.pastel2 a:hover {
+    background-color: #953A68;
+    transform: scale(1, 1);
+    box-shadow: 4px 4px 2px gray;
+    font-size: 1.3em;
+    transition-duration: 0.4s;
+}
+
+/*Pag Acerca de */
+.centro {
+    width: 70%;
+    margin: 2% 15%;
+    font-size: 1.2em;
+}
+.centro h1 {
+    text-align: center;
+    font-size: 1.5em;
+}
+.acerca {
+    margin-bottom: 5%;
+}
+.mision {
+    margin-bottom: 5%
+}
+.vision {
+    margin-bottom: 5%;
+}
+
+/* Mas informacion*/
+.info {
+    display: inline-flex;
+    width: 80%;
+    margin: 2% 10%;
+    flex-shrink: 0;
+}
+.foto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex-shrink: 0;
+    width: 40%;
+    margin: 0;
+}
+.foto img {
+    width: 90%;
+    flex-shrink: 0;
+}
+.foto a {
+    background-color: #E26EA8;
+    padding: 10px 20px;
+    box-shadow: 4px 4px 2px gray;
+    font-size: 1em;
+}
+.foto a:hover {
+    background-color: #953A68;
+    transform: scale(1, 1);
+    box-shadow: 4px 4px 2px gray;
+    transition-duration: 0.4s;
+    font-size: 1.2em;
+}
+.texto1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60%;
+    margin: 2%;
+}
+.texto1 a {
+    background-color: #E26EA8;
+    padding: 10px 20px;
+    box-shadow: 4px 4px 2px gray;
+    font-size: 1.2em;
+}
+.texto1 a:hover {
+    background-color: #953A68;
+    transform: scale(1, 1);
+    box-shadow: 4px 4px 2px gray;
+    transition-duration: 0.4s;
+    font-size: 1.4em;
+}
+
+/*Tartaletas*/
+.menu2 .eleccion1 {
+    background-color: #953A68;
+    color: white;
+    padding: 5%;
+    box-shadow: 4px 4px 2px gray;
+}
+
+/*Pedidos*/
+.formularios form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    border: 2px solid #953A68;
+    width: 60%;
+    margin: 0 20%;
+}
+.formularios form div {
+    margin-bottom: 1.5%;
+}
+.formularios input {
+    padding: 10px;
+    margin: 3px solid pink;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.formularios input.submit {
+    margin-left: 100px;
+}
+
+/*Media Queries*/
+@media screen and (min-width: 300px) and (max-width:639px) {
+    header {
+        font-size: 0.9em;
+    }
+    
+    footer {
+        font-size: 0.8em;
+    }
+    
+    .menu,
+    .menumov {
+        display: none;
+    }
+    /*Recomendaciones y carrusel*/
+    
+    .carrusel {
+        width: 90%;
+        margin: 3% 5% 5% 5%;
+        height: 170px;
+    }
+    
+    .img {
+        width: 40%;
+    }
+    
+    .img img {
+        width: 100%;
+    }
+    
+    .desc {
+        width: 55%;
+        margin-left: 5%;
+    }
+    
+    .desc p {
+        font-size: 1em;
+    }
+    
+    .desc h1 {
+        font-size: 1.4em;
+        text-align: left;
+    }
+    
+    .desc a {
+        font-size: 1em;
+        padding: 5px 5px;
+    }
+    
+    .recomendaciones {
+        width: 100%;
+        margin: 0;
+        border-left: none;
+        border-right: none;
+        margin-bottom: 20px;
+    }
+    
+    .pasteles a {
+        font-size: 0.6em;
+        padding: 5px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    .rec h2 {
+        font-size: 0.8em;
+    }
+    
+    .pastel img {
+        width: 80%;
+    }
+    /*Pastelería*/
+    
+    .menu2 {
+        width: 40%;
+        margin-top: 40px;
+    }
+    
+    .menu2 ul li {
+        margin-bottom: 40%;
+        font-size: 0.9em;
+    }
+    
+    .pas {
+        width: 60%;
+        margin-right: 5%;
+    }
+    
+    .pas h1 {
+        font-size: 1.4em;
+    }
+    
+    .hilera1 {
+        justify-content: space-between;
+        margin-left: 5px;
+        width: 100%
+    }
+    
+    .pastel2 {
+        width: 50%;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: -30px;
+        flex-basis: calc(100%/1);
+        margin-right: 20px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+        )
+    }
+    
+    .pastel2 p {
+        font-size: 1em;
+        font-weight: bolder;
+        text-align: center;
+    }
+    
+    .pastel2 img {
+        width: 100%;
+    }
+    
+    .hilera1 .pastel2 a {
+        margin: 0 12px;
+        padding: 4px;
+        font-size: 0.8em;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+    
+    .hilera1 .pastel2 a:hover {
+        background-color: #953A68;
+    }
+    /* Mas informacion*/
+    
+    .foto {
+        justify-content: flex-start;
+        width: 30%;
+    }
+    
+    .foto h1 {
+        font-size: 1.2em;
+        text-align: center;
+    }
+    
+    .foto img {
+        width: 100%;
+    }
+    
+    .foto a {
+        padding: 5px 10px;
+        font-size: 0.7em;
+    }
+    
+    .foto a:hover {
+        font-size: 0.7em;
+    }
+    
+    .texto1 {
+        width: 70%;
+        margin: 2%;
+    }
+    
+    .texto1 p {
+        font-size: 0.8em;
+    }
+    
+    .texto1 a {
+        background-color: #E26EA8;
+        padding: 5px 8px;
+        box-shadow: 4px 4px 2px gray;
+        font-size: 1em;
+        position: relative;
+        left: 90px;
+    }
+    
+    .texto1 a:hover {
+        background-color: #953A68;
+        transform: scale(none);
+        box-shadow: 4px 4px 2px gray;
+        transition-duration: 0.4s;
+        font-size: 1em;
+    }
+    /*Pag Acerca de */
+    
+    .centro {
+        width: 90%;
+        margin: 2% 5%;
+        font-size: 1em;
+    }
+    
+    .centro h1 {
+        text-align: center;
+        font-size: 1.3em;
+    }
+    /*Pedidos*/
+    
+    .formularios form {
+        width: 80%;
+        margin: 0 10%;
+    }
+    
+    .formularios form div {
+        margin-bottom: 20px;
+    }
+    
+    .formularios input {
+        padding: 10px;
+        margin: 3px solid pink;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+}
+@media screen and (min-width: 640px) and (max-width:1024px) {
+    header {
+        font-size: 1em;
+    }
+    
+    footer {
+        font-size: 1em;
+    }
+    
+    .hamburguesa {
+        display: none;
+    }
+    /*Recomendaciones y carrusel*/
+    
+    .carrusel {
+        width: 90%;
+        margin: 3% 5% 5% 5%;
+        height: 400px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .img {
+        width: 50%;
+    }
+    
+    .img img {
+        width: 100%;
+    }
+    
+    .desc {
+        width: 45%;
+        margin-left: 5%;
+    }
+    
+    .desc p {
+        font-size: 1.5em;
+    }
+    
+    .desc h1 {
+        font-size: 1.8em;
+        text-align: left;
+    }
+    
+    .desc a {
+        font-size: 1.3em;
+        padding: 10px 15px;
+    }
+    
+    .recomendaciones {
+        width: 100%;
+        margin: 0;
+        border-left: none;
+        border-right: none;
+        margin-bottom: 20px;
+    }
+    
+    .pasteles a {
+        font-size: 1em;
+        padding: 5px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    .rec h2 {
+        font-size: 1.2em;
+    }
+    
+    .pastel img {
+        width: 80%;
+    }
+    /*Pastelería*/
+    
+    .menu2 {
+        width: 40%;
+    }
+    
+    .menu2 ul li {
+        margin-bottom: 30%;
+        font-size: 1.3em;
+    }
+    
+    .pas {
+        width: 60%;
+        margin-right: 5%;
+    }
+    
+    .pas h1 {
+        font-size: 1.6em;
+    }
+    
+    .hilera1 {
+        justify-content: space-between;
+        margin-left: 10px;
+        width: 100%
+    }
+    
+    .pastel2 {
+        width: 50%;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: -30px;
+        flex-basis: calc(100%/4);
+        margin-right: 30px;
+        margin-left: 30px;
+        margin-bottom: 10px;
+        )
+    }
+    
+    .pastel2 p {
+        font-size: 1em;
+        font-weight: bolder;
+        text-align: center;
+    }
+    
+    .pastel2 img {
+        width: 100%;
+    }
+    
+    .hilera1 .pastel2 a {
+        margin: 0 12px;
+        padding: 4px;
+        font-size: 0.9em;
+        margin-bottom: 8px;
+        text-align: center;
+    }
+    
+    .hilera1 .pastel2 a:hover {
+        background-color: #953A68;
+    }
+    /* Mas informacion*/
+    
+    .foto {
+        justify-content: flex-start;
+        width: 30%;
+    }
+    
+    .foto h1 {
+        font-size: 1.2em;
+        text-align: center;
+    }
+    
+    .foto img {
+        width: 100%;
+    }
+    
+    .foto a {
+        padding: 5px 10px;
+        font-size: 0.7em;
+    }
+    
+    .foto a:hover {
+        font-size: 0.7em;
+    }
+    
+    .texto1 {
+        width: 70%;
+        margin: 2%;
+    }
+    
+    .texto1 p {
+        font-size: 0.8em;
+    }
+    
+    .texto1 a {
+        background-color: #E26EA8;
+        padding: 5px 8px;
+        box-shadow: 4px 4px 2px gray;
+        font-size: 1em;
+        position: relative;
+        left: 90px;
+    }
+    
+    .texto1 a:hover {
+        background-color: #953A68;
+        transform: scale(none);
+        box-shadow: 4px 4px 2px gray;
+        transition-duration: 0.4s;
+        font-size: 1em;
+    }
+    /*Pag Acerca de */
+    
+    .centro {
+        width: 90%;
+        margin: 2% 5%;
+        font-size: 1em;
+    }
+    
+    .centro h1 {
+        text-align: center;
+        font-size: 1.3em;
+    }
+    /*Pedidos*/
+    
+    .formularios form {
+        width: 80%;
+        margin: 0 10%;
+    }
+    
+    .formularios form div {
+        margin-bottom: 20px;
+    }
+    
+    .formularios input {
+        padding: 10px;
+        margin: 3px solid pink;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+}
