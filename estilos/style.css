@@ -826,3 +826,8 @@ footer {
         border-bottom-right-radius: 20px;
     }
 }
+@media screen and (min-width:1024px) {
+    .hamburguesa {
+        display: none;
+    }
+}
