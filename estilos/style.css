@@ -404,6 +404,22 @@ footer {
 .formularios input.submit {
     margin-left: 100px;
 }
+.contacto {
+    width: 50%;
+    margin: 3% 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px 0;
+    border: 2px solid #953A68;
+}
+.telefono {
+    text-align: center;
+}
+.mapa {
+    display: flex;
+    margin-left: 50px;
+}
 
 /*Media Queries*/
 @media screen and (min-width: 300px) and (max-width:639px) {
@@ -615,6 +631,26 @@ footer {
         border-top-right-radius: 20px;
         border-bottom-right-radius: 20px;
     }
+    
+    .contacto {
+        width: 90%;
+        margin: 3% 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px 0;
+        border: 2px solid #953A68;
+    }
+    
+    .telefono {
+        text-align: center;
+    }
+    
+    .mapa {
+        display: flex;
+        margin-left: 10px;
+        width: 5%;
+    }
 }
 @media screen and (min-width: 640px) and (max-width:1024px) {
     header {
@@ -824,6 +860,39 @@ footer {
         margin: 3px solid pink;
         border-top-right-radius: 20px;
         border-bottom-right-radius: 20px;
+    }
+    
+    .contacto {
+        width: 90%;
+        margin: 3% 5%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 10px 0;
+        border: 2px solid #953A68;
+    }
+    
+    .telefono h2 p {
+        text-align: center;
+    }
+    
+    .telefono h2 {
+        font-size: 1.2em;
+    }
+    
+    .telefono p {
+        font-size: 0.86em
+    }
+    
+    .telefono {
+        margin-left: 5px;
+    }
+    
+    .mapa {
+        display: flex;
+        margin-left: 50px;
+        margin-right: 10px;
+        align-content: center;
     }
 }
 @media screen and (min-width:1024px) {
