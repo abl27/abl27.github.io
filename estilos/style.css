@@ -21,14 +21,8 @@ header {
     height 100px;
 }
 
-.logo {
-    width: 50%;
-    background-image: url(images/logo.png);
-    background-repeat: no-repeat;
-    background-position: top center;
-    text-indent: -150%;
-    height: 150px;
-    margin: 0 25%;
+.logo img {
+    margin-left: 45%;
 }
 
 .menu {
@@ -431,6 +425,10 @@ footer {
         font-size: 0.8em;
     }
     
+    .logo {
+        margin-right: 35%;
+    }
+    
     .menu,
     .menumov {
         display: none;
@@ -659,6 +657,10 @@ footer {
     
     footer {
         font-size: 1em;
+    }
+    
+    .logo {
+        margin-right: 5%;
     }
     
     .hamburguesa {
