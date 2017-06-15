@@ -12,6 +12,12 @@ main {
     margin: 1% 0;
 }
 
+@font-face {
+    font-family: handlee;
+    src: url(https://fonts.google.com/) font-style: normal;
+    font-weight: normal
+}
+
 
 /*header*/
 
@@ -102,13 +108,13 @@ a {
 }
 
 .carrusel p {
-    font-size: 1.7em;
+    font-size: 1.9em;
     text-align: left;
-    font-family: Sitka;
+    font-family: Helvetica;
 }
 
 .carrusel h1 {
-    font-size: 1.9em;
+    font-size: 2.7em;
 }
 
 #cake-1,
@@ -120,7 +126,12 @@ a {
 }
 
 .img img {
-    max-width: 80%;
+    max-width: 100%;
+    width: 50%;
+}
+
+.desc {
+    width: 50%;
 }
 
 .desc a {
@@ -325,8 +336,11 @@ footer {
     align-items: center;
     justify-content: space-around;
     flex-shrink: 0;
-    width: 40%;
+    width: 50%;
     margin: 0;
+}
+.foto h1 {
+    font-size: 2em;
 }
 .foto img {
     width: 90%;
@@ -351,7 +365,7 @@ footer {
     align-items: center;
     justify-content: center;
     align-items: flex-start;
-    width: 60%;
+    width: 50%;
     margin: 2%;
 }
 .texto1 a {
@@ -366,6 +380,10 @@ footer {
     box-shadow: 4px 4px 2px gray;
     transition-duration: 0.4s;
     font-size: 1.4em;
+}
+.texto1 p {
+    font-size: 1.5em;
+    font-family: Helvetica;
 }
 
 /*Tartaletas*/
@@ -455,11 +473,11 @@ footer {
     }
     
     .desc p {
-        font-size: 1em;
+        font-size: 0.8em;
     }
     
     .desc h1 {
-        font-size: 1.4em;
+        font-size: 1.3em;
         text-align: left;
     }
     
@@ -554,43 +572,43 @@ footer {
     
     .foto {
         justify-content: flex-start;
-        width: 30%;
+        width: 50%;
     }
     
     .foto h1 {
-        font-size: 1.2em;
+        font-size: 1em;
         text-align: center;
     }
     
     .foto img {
-        width: 100%;
+        width: 80%;
     }
     
     .foto a {
-        padding: 5px 10px;
+        padding: 3px 5px;
         font-size: 0.7em;
     }
     
     .foto a:hover {
-        font-size: 0.7em;
+        font-size: 0.5em;
     }
     
     .texto1 {
-        width: 70%;
+        width: 50%;
         margin: 2%;
     }
     
     .texto1 p {
-        font-size: 0.8em;
+        font-size: 0.7em;
     }
     
     .texto1 a {
         background-color: #E26EA8;
-        padding: 5px 8px;
+        padding: 3px 6px;
         box-shadow: 4px 4px 2px gray;
-        font-size: 1em;
+        font-size: 0.8em;
         position: relative;
-        left: 90px;
+        left: 70px;
     }
     
     .texto1 a:hover {
@@ -681,7 +699,7 @@ footer {
     }
     
     .img img {
-        width: 100%;
+        width: 80%;
     }
     
     .desc {
